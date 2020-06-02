@@ -10,5 +10,5 @@ clear
 echo -n "angka1 : "; read a
 
 echo -n "angka2 : "; read b
-n = $[a+b]
+n=$[a+b]
 echo -n "jumlah dari $a + $b = "; echo $n
